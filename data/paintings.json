@@ -1,0 +1,515 @@
+{ "paintings": [
+    { "imageFile": "blackhorizonofexpectation.jpg" },
+    {
+        "imageFile": "portals-2013.jpg",
+        "workTitle": "Portals (2014)",
+        "media": "Oil on black gesso",
+        "dimensions": "180 x 180 cm"
+    },
+    {
+        "imageFile":"metascape-duratran.jpg",
+        "workTitle":"Geo Tondo",
+        "media":"Duratran light box",
+        "dimensions": "89 x 89 cm",
+        "year":"2015"
+    },
+    {
+        "imageFile":"ice+line.jpg",
+        "workTitle":"Ice Line",
+        "media":"Duratran light box",
+        "dimensions": "42cm diameter",
+        "year":"2015"
+    },
+    {
+        "imageFile":"ice+time.jpg",
+        "workTitle":"Ice Time",
+        "media":"Duratran light box",
+        "dimensions": "80cm diameter",
+        "year":"2015"
+    },
+    {
+        "imageFile":"echo.jpg",
+        "workTitle":"Echo",
+        "media":"Duratran light box",
+        "dimensions": "42cm diameter",
+        "year":"2015"
+    },
+    {
+        "imageFile":"ice+line+and+microscopic+vignette+in+the+dark.jpg",
+        "workTitle":"Ice Line &amp; Microscopic Vignette light boxes"
+    },
+    {
+        "imageFile":"microscopic+vignette.jpg",
+        "workTitle":"Microscopic Vignette",
+        "media":"Duratran light box",
+        "dimensions": "42cm diameter, 47mm depth",
+        "year":"2013"
+    },
+    {
+        "imageFile":"metascape+vignette+lightbox.jpg",
+        "workTitle":"Metascape Vignette",
+        "media":"Duratran light box",
+        "dimensions": "42cm diameter, 47mm depth",
+        "year":"2014"
+    },
+    {
+        "imageFile":"nature+dwelling.jpg",
+        "workTitle":"Nature Dwelling",
+        "media":"Oil &amp; alkyd on birch ply",
+        "dimensions": "Tondo, 32 cm diameter",
+        "year":"2013"
+    },
+
+    {
+        "imageFile":"Nature Dwelling 2014.jpg",
+        "workTitle":"Nature Dwelling",
+        "media":"Oil &amp; acrylic on birch ply",
+        "dimensions": "120 x 120",
+        "year":"2014"
+    },
+
+    {
+        "imageFile":"calamine+state+aluminium+tondo+2014.jpg",
+        "workTitle":"Calamine State",
+        "media":"Oil &amp; alkyd on aluminum",
+        "dimensions":"Tondo, 52 cm diameter",
+        "year": "2014"
+    },
+
+    {
+        "imageFile":"metascape+tondo+2014.jpg",
+        "workTitle":"Metascape",
+        "media":"Alkyd on aluminum",
+        "dimensions": "52 x 52 cm",
+        "year": "2014"
+    },
+
+    {
+        "imageFile":"geoscape+2014.jpg",
+        "workTitle":"Geoscape",
+        "media":"Oil on aluminum",
+        "dimensions":"60 x 80 cm",
+        "year": "2014"
+    },
+
+    {
+        "imageFile":"ionscape+diptych+new.jpg",
+        "workTitle":"Ionscape Diptych",
+        "media":"Oil on aluminum",
+        "dimensions":"60 x 160 cm",
+        "year": "2015"
+    },
+
+    {
+        "imageFile":"ionscape.jpg",
+        "workTitle":"Ionscape 1",
+        "media":"Oil on aluminum",
+        "dimensions":"60 x 80 cm",
+        "year": "2015"
+    },
+
+    {
+        "imageFile":"metascape+2014+1.jpg",
+        "workTitle":"Metascape",
+        "media":"Acrylic & oil on canvas",
+        "dimensions":"120 x 180 cm",
+        "year": "2014"
+    },
+
+
+    {
+        "imageFile": "portals.jpg",
+        "workTitle": "Portals",
+        "media": "Oil &amp; acrylic on canvas",
+        "dimensions": "180 x 90 cm"
+    },
+
+    {
+        "imageFile": "black+tondo.jpg",
+        "workTitle": "Black Tondo",
+        "media": "Oil on black gesso",
+        "dimensions": "120 x 120 cm",
+        "year": "2015"
+    },
+
+
+    {
+        "imageFile": "aftermath.jpg",
+        "workTitle": "Aftermath",
+        "media": "Oil on canvas",
+        "dimensions": "150 x 150 cm"
+    },
+
+    {
+        "imageFile": "coriolis-2014.jpg",
+        "workTitle": "Coriolis (2013)",
+        "media": "Oil on black gesso",
+        "dimensions": "150 x 150 cm"
+    },
+
+    {
+        "imageFile": "nightvision.jpg",
+        "workTitle": "Night Vision",
+        "media": "Oil on black gesso",
+        "dimensions": "180 x 180 cm"
+    },
+
+    {
+        "imageFile": "spectralfield.jpg",
+        "workTitle": "Spectral Field",
+        "media": "Oil on canvas",
+        "dimensions": "180 x 180 cm"
+    },
+
+
+
+    {
+        "imageFile": "spectral.jpg",
+        "workTitle": "Spectral",
+        "media": "Oil on canvas",
+        "dimensions": "80 x 60 cm"
+    },
+
+
+    {
+        "imageFile": "lightlines.jpg",
+        "workTitle": "Light Lines",
+        "media": "Oil on canvas",
+        "dimensions": "80 x 60 cm"
+    },
+
+
+
+    {
+        "imageFile": "blackhorizonofexpectation.jpg",
+        "workTitle": "Black Horizon of Expectation",
+        "media": "Oil on canvas",
+        "dimensions": "150 x 200 cm"
+    },
+
+    {
+        "imageFile": "blackhorizon.jpg",
+        "workTitle": "Black Horizon",
+        "media": "Oil on canvas",
+        "dimensions": "60 x 80 cm"
+    },
+
+    {
+        "imageFile": "microscopicmagnitude.jpg",
+        "workTitle": "Microscopic Magnitude",
+        "media": "Oil &amp; alkyd on canvas",
+        "dimensions": "97 x 97 cm",
+        "sold":"true"
+    },
+
+
+
+    {
+        "imageFile": "orbitalsky.jpg",
+        "workTitle": "Orbital Sky",
+        "media": "Oil on canvas",
+        "dimensions": "Tondo, 110 cm diameter"
+    },
+
+    {
+        "imageFile": "retinalstorm.jpg",
+        "workTitle": "Retinal Storm",
+        "media": "Oil on canvas",
+        "dimensions": "Tondo, 110 cm diameter",
+        "sold": "true"
+    },
+
+    {
+        "imageFile": "unnaturalhabitat.jpg",
+        "workTitle": "Unnatural Habitat",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "152 x 152 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "tropicalshift.jpg",
+        "workTitle": "Tropical Shift",
+        "media": "Oil on canvas",
+        "dimensions": "110 x 80 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "orangeflood.jpg",
+        "workTitle": "Orange Flood",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "60 x 160 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "englishtype.jpg",
+        "workTitle": "English Type",
+        "workType": "Diptych",
+        "media": "Oil &amp; silver gelatin on canvas",
+        "dimensions": "2 x 150 x 120 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "silentgreen.jpg",
+        "workTitle": "Silent Witnesses",
+        "numberOf": "(1&nbsp;of&nbsp;3)",
+        "workType": "Triptych",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "3 x 60 x 80 cm",
+        "sold":"true"
+
+    },
+
+    {
+        "imageFile": "silentgrey.jpg",
+        "workTitle": "Silent Witnesses",
+        "numberOf": "(2&nbsp;of&nbsp;3)",
+        "workType": "Triptych",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "3 x 60 x 80 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "silentpink.jpg",
+        "workTitle": "Silent Witnesses",
+        "numberOf": "(3&nbsp;of&nbsp;3)",
+        "workType": "Triptych",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "3 x 60 x 80 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile": "enclosure.jpg",
+        "workTitle": "Enclosure",
+        "media": "Oil &amp; silver emulsion on canvas",
+        "dimensions": "70 x 70 cm",
+        "sold":"true"
+    },
+
+    {
+        "imageFile":"greentrunk.jpg",
+        "workTitle":"Green Trunk",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"100 x 90 cm",
+        "sold":"true"
+    },
+    {"imageFile":"bluebergolt.jpg",
+        "workTitle":"Blue Bergolt",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"180 x 160 cm",
+        "sold":"true"},
+    {"imageFile":"supportingmajoroak.jpg",
+        "workTitle":"Support Major Oak",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"180 x 160 cm",
+        "sold":"true"},
+
+    {"imageFile":"thehouseofwillielot.jpg",
+        "workTitle":"The House of Willie Lot",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 cm diameter",
+        "sold":"true"},
+    {"imageFile":"circlingbridgecottage.jpg",
+        "workTitle":"Circling Bridge Cottage",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 cm diameter",
+        "sold":"true"},
+
+    {
+    "imageFile": "byronsmirror.jpg",
+    "workTitle": "Byron&rsquo;s Mirror",
+    "media": "Oil &amp; silver emulsion on canvas",
+    "dimensions": "152 x 152 cm",
+        "sold":"true"
+        },
+
+    {"imageFile":"vanishinghaze.jpg",
+        "workTitle":"Vanishing Haze",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"152 x 152 cm",
+        "sold":"true"},
+
+    {"imageFile":"madbadanddangeroustoknow.jpg",
+        "workTitle":"Mad, Bad and Dangerous to Know",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"152 x 152 cm",
+        "sold":"true"},
+
+    {"imageFile":"ohhowtheyglisten.jpg",
+        "workTitle":"Oh How They Glisten",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"51 x 51 cm",
+        "sold":"true"},
+
+    {"imageFile":"onourwaytojasper.jpg",
+        "workTitle":"On Our Way To Jasper",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 x 160 cm",
+        "sold":"true"},
+
+    {"imageFile":"greenvalleystudy.jpg",
+        "workTitle":"Green Valley &lsquo;Study&rsquo;",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"70 x 60 cm",
+        "sold":"true"},
+
+    {"imageFile":"londonparticular.jpg",
+        "workTitle":"London Particular",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"70 x 60 cm",
+        "sold":"true"},
+
+    {"imageFile":"allthatglistensmeltsintoair.jpg",
+        "workTitle":"All That Glistens Melts Into Air",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"90 x 165 cm",
+        "sold":"true"},
+
+    {"imageFile":"scorchedtrunk.jpg",
+        "workTitle":"Scorched Trunk",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"Tondo, 70 cm diameter"},
+
+    {"imageFile":"artificialglory.jpg",
+        "workTitle":"Artificial Glory",
+        "media":"Oil on canvas",
+        "dimensions":"90 x 165 cm",
+        "sold":"true"},
+
+    {"imageFile":"glitteryglitterybrook.jpg",
+        "workTitle":"Glittery Glittery Brook",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"51 x 51 cm",
+        "sold":"true"},
+
+    {
+        "imageFile":"lostingreenkaghanvalley.jpg",
+        "workTitle":"Lost in Green Kaghan Valley",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 x 160 cm",
+        "sold":"true"
+    },
+
+    {"imageFile":"lost.jpg",
+        "workTitle":"Lost",
+        "workType": "Triptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"60 x 180 cm",
+        "sold":"true"},
+
+    {"imageFile":"carlossmirror.jpg",
+        "workTitle":"Carlos&rsquo;s Mirror",
+        "workType": "Diptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"90 x 330 cm",
+        "sold":"true"},
+
+    {"imageFile":"spotsintime.jpg",
+        "workTitle":"Spots in Time",
+        "workType": "Triptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"51 x 153 cm",
+        "sold":"true"},
+
+    {"imageFile":"retreat.jpg",
+        "workTitle":"Retreat",
+        "workType": "Triptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"51 x 51 cm",
+        "sold":"true"},
+
+    {"imageFile":"departure.jpg",
+        "workTitle":"Departure",
+        "workType": "Diptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"70 x 140 cm",
+        "sold":"true"},
+
+    {"imageFile":"withorwithoutyou.jpg",
+        "workTitle":"With or Without You",
+        "workType": "Diptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 x 240 cm",
+        "sold":"true"},
+
+    {"imageFile":"memorymist.jpg",
+        "workTitle":"Memory Mist",
+        "workType": "Diptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"60 x 140 cm",
+        "sold":"true"},
+
+    {"imageFile":"alineintime.jpg",
+        "workTitle":"A Line in Time",
+        "workType": "Triptych",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"60 x 210 cm",
+        "sold":"true"},
+
+    {"imageFile":"cosmeticrockgarden.jpg",
+        "workTitle":"Cosmetic Rock Garden",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"70 cm diameter",
+        "sold":"true"},
+
+    {"imageFile":"wonderland.jpg",
+        "workTitle":"Wonderland",
+        "media":"Oil &amp; silver emulsion on canvas",
+        "dimensions":"120 cm diameter",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto1.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(1&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto2.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(2&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto3.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(3&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto4.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(4&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto5.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(5&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto6.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(6&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto7.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(7&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {"imageFile":"dittoditto8.jpg",
+        "workTitle":"&ldquo;Ditto Ditto&rdquo; series",
+        "numberOf": "(8&nbsp;of&nbsp;8)",
+        "sold":"true"},
+
+    {
+        "imageFile":"unnatural+selection+exhibition.jpg",
+        "workTitle": "Un-natural Selection exhibition: gallery view",
+        "year":"2010"
+    }
+
+
+]
+}
+

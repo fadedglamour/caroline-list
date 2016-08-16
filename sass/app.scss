@@ -1,0 +1,484 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+//@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+
+@import "foundation/components/global"; // *always required
+@import "foundation/components/grid";
+@import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+@import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+@import "foundation/components/orbit";
+@import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+@font-face {
+  font-family: 'entypo';
+  src: url('../fonts/entypo/entypo.eot?') format('eot'),
+  url('../fonts/entypo/entypo.woff') format('woff'),
+  url('../fonts/entypo/entypo.ttf') format('truetype'),
+  url('../fonts/entypo/entypo.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$primary-face: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headline-font-color: #999999;
+$border-color: #bbbbbb;
+$body-font-color: #222222;
+$caption-font-color: #777777;
+
+body {
+  font-family: $primary-face;
+  height: 100%;
+}
+
+h1 {
+  font-family: $primary-face;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $headline-font-color;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  margin-left: 1em;
+  padding: 1%;
+  text-align: center;
+
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+@media #{$small} {
+  h1 {
+    font-size: 2.2em;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+  }
+}
+
+h2 {
+  font-family: $primary-face;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: $headline-font-color;
+  padding: 0.4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+@media #{$small} {
+  h2 {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+
+h3.artist-name {
+  font-size: 1.2em;
+}
+
+#menu-icon {
+  position: absolute;
+  left: 10px;
+  display: flex;
+  font-family: "entypo";
+  font-size: 3em;
+  color: $headline-font-color;
+  z-index: 15;
+}
+
+@media #{$small} {
+  h3.artist-name {
+    font-size: 1.5em;
+  }
+}
+
+h3 {
+  font-family: $primary-face;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: $headline-font-color;
+  text-align: center;
+}
+
+div.contact p {
+  margin-bottom: 0.4em;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+div.contact p em {
+  font-style: normal;
+  color: $headline-font-color;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+div.bio p {
+  font-size: 0.8em;
+}
+
+div.footnotes ol li {
+  font-size: 0.8em;
+  color: $headline-font-color;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.artist-name {
+  letter-spacing: 0.8em;
+  text-transform:uppercase;
+}
+
+a, a:link, a:active, a:hover {
+  color: $headline-font-color;
+  text-decoration: none;
+}
+
+h3.essay-title {
+  text-align: left;
+}
+
+h3.essay-author {
+  text-align: left;
+  color: $body-font-color;
+  padding-bottom: 1em;
+}
+
+h3 a {
+  border-bottom: 2px solid #999999;
+
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+
+}
+
+h3 a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.typekit-badge {display:none !important;}
+
+
+div.cv p, div.cv td, div.essay p, div.contact p, div.contact p a, div.contact p a:link, div.contact p a:active, div.contact p a:hover {
+  font-family: $primary-face;
+  font-weight: 200;
+  font-size: 1.1em;
+  color: $body-font-color;
+}
+
+
+div.cv h3 {
+  font-size: 1.3em;
+  text-align: left;
+  margin-top: 0;
+}
+
+div.cv h4 {
+  font-family: $primary-face;
+  font-weight: 200;
+  font-size: 1.1em;
+  color: $headline-font-color;
+}
+
+.cv div.row {
+  margin-top: 2em;
+}
+
+div.cv table {
+  table-layout: fixed;
+}
+
+div.cv table tr td:first-child {
+  width: 5em;
+}
+
+div.cv table tr td {
+  padding-right: 0.5em;
+  padding-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0.5em;
+  vertical-align:top;
+  line-height: 1.6;
+}
+
+div.cv table tr td p {
+  padding: 0;
+  margin: 0;
+}
+
+div.group-shows p {
+  margin-bottom: 1em;
+}
+
+span.show-detail {
+  font-size: 0.8em;
+}
+
+div.works p {
+  font-size: 1em;
+}
+
+span.work-title {
+  font-weight: 400;
+  padding-top: 1em;
+}
+
+.essay img {
+  padding-top: 0.5em;
+  text-align: left;
+  float:left;
+}
+
+#gallery-1 {
+  margin: auto;
+  width: 100%;
+}
+
+#home-image {
+  margin-top: 0em;
+}
+
+@media #{$small} {
+   #home-image {
+  margin-top: auto;
+  }
+}
+
+h2.current-link {
+  border-bottom-width: 0.2em;
+  border-bottom-style: solid;
+}
+
+.rsDefault .rsGCaption {
+  bottom: 2em;
+  left: 0em;
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: $caption-font-color;
+}
+
+.rsCaption {
+  height: 3em;
+  max-height: 3em;
+  margin-top: 1em;
+  padding-top: 0.4em;
+}
+
+.rsCaption.no-caption {
+  height: 0em;
+  margin-top: 0em;
+  padding-top: 0em;
+}
+
+.border {
+  border-top: 1px solid $border-color;
+}
+
+
+
+.rsDefault .rsGCaption p {
+  font-weight: 200;
+  margin-bottom: 0;
+  padding: 0.1em 0.4em;
+}
+
+.caption-none {
+  display: none;
+}
+
+.rsImg img {
+  //text-align: left;
+}
+
+.home-page {
+  height: 100%;
+}
+
+#home {
+  text-align: center;
+}
+
+@media #{$small} {
+  #home-image {
+    height: 100%;
+  }
+}
+
+#gallery {
+  height: 100%;
+}
+
+#gallery-1 {
+  margin: auto;
+  width: 100%;
+  height: 14em;
+}
+
+@media #{$small} {
+  #gallery-1 {
+    width: 100%;
+    height: 25em;
+  }
+}
+
+@media #{$large} {
+  #gallery-1 {
+    width: 100%;
+    height: 40em;
+  }
+}
+
+// iPad landscape
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  #gallery-1 {
+    width: 100%;
+    height: 20em;
+  }
+
+}
+
+// iPad portrait
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  #gallery-1 {
+    width: 100%;
+    height: 45em;
+  }
+
+}
+
+// iPad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+ {
+  div.contact p {
+    line-height: 1.2em;
+    font-size: 0.6em;
+  }
+}
+
+img#home {
+  padding-top: 3em;
+  height: auto;
+  text-align: center;
+}
+
+@media #{$small} {
+  img#home {
+    padding-top: 0em;
+    height: 25em;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  img#home {
+    padding-top: 0em;
+    height: 20em;
+  }
+}
+
+.home-page {
+  height:100%;
+}
+
+div.page-wrap {
+  margin: 0;
+  height: 100%;
+  width: 100%; /* width needed for Firefox */
+
+  /* old flexbox - Webkit and Firefox. For backwards compatibility */
+  display: -webkit-box; display: -moz-box;
+  /* middle-aged flexbox. Needed for IE 10 */
+  display: -ms-flexbox;
+  /* new flexbox. Chrome (prefix), Opera, upcoming browsers without */
+  display: -webkit-flex;
+  display: flex;
+
+  /* old flexbox: box-* */
+  -webkit-box-align: center; -moz-box-align: center;
+  /* middle flexbox: flex-* */
+  -ms-flex-align: center;
+  /* new flexbox: various property names */
+  -webkit-align-items: center;
+  align-items: center;
+
+
+  -webkit-box-pack: center; -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+}
+
+div.page {
+  width:100%;
+}
+
+.exhibitions .poster {
+  margin-top: 0em;
+}
+
+@media only screen and (orientation:landscape) {
+  .exhibitions .poster {
+    max-width: 32em;
+  }
+}
+
+.homePageImage {
+  height: 32em;
+  max-width: 32em !important;
+}

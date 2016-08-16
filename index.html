@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="home-page no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="home-page no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title class="artist-name">Caroline List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="keywords" content="list, caroline, art, artist, british">
+    <meta name="description" content="The official website of British artist Caroline List.">
+
+    <link rel="stylesheet" href="stylesheets/normalize.css" />
+    <link class="rs-file" href="stylesheets/royalslider.css" rel="stylesheet"/>
+    <link class="rs-file" href="stylesheets/rs-default.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="stylesheets/jquery.sidr.light.css"/>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+
+
+    <script type="text/javascript" src="//use.typekit.net/xms2mei.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="javascripts/vendor/custom.modernizr.js"></script>
+</head>
+<body class="home-page">
+<div class="page-wrap">
+<div id="menu-icon" class="show-for-small"><a id="simple-menu" href="#sidr">&#9776;</a></div>
+<div class="page">
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="artist-name"><a href="index.html">Caroline List</a></h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="home-image" class="large-12 columns">
+            <div id="gallery-1" class="royalSlider rsDefault">
+            </div>
+        </div>
+    </div>
+
+    <div class="row  hide-for-small">
+        <div class="large-2 columns">
+            <h2><a class="gallery-link" href="#">gallery</a></h2>
+        </div>
+        <div class="large-2 columns">
+            <h2><a href="exhibitions.html">exhibitions</a></h2>
+        </div>
+        <div class="large-2 columns">
+            <h2><a href="cv.html">cv</a></h2>
+        </div>
+        <div class="large-2 columns">
+            <h2><a href="artist-statement.html">artist&nbsp;statement</a></h2>
+        </div>
+        <div class="large-2 columns">
+            <h2><a href="theory-text.html">theory&nbsp;/&nbsp;text</a></h2>
+        </div>
+        <div class="large-2 columns">
+            <h2><a href="#" data-reveal-id="contact">contact</a></h2>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div id="sidr" class="sidr left">
+    <!-- Your content -->
+    <ul>
+        <li class="active"><a href="index.html">gallery</a></li>
+        <li><a href="exhibitions.html">exhibitions</a></li>
+        <li><a href="cv.html">cv</a></li>
+        <li><a href="artist-statement.html">artist&nbsp;statement</a></li>
+        <li><a href="theory-text.html">theory&nbsp;/&nbsp;text</a></li>
+    </ul>
+</div>
+
+<script src="javascripts/vendor/jquery.js"></script>
+<script class="rs-file" src="javascripts/vendor/jquery.royalslider.min.js"></script>
+<script src="javascripts/foundation/foundation.js"></script>
+<script src="javascripts/foundation/foundation.reveal.js"></script>
+<script src="javascripts/vendor/jquery.sidr.min.js"></script>
+
+<script>
+//    // mobile browser address bar removal
+//    window.addEventListener("load",function() {
+//        // Set a timeout...
+//        setTimeout(function(){
+//            // Hide the address bar!
+//            window.scrollTo(0, 1);
+//        }, 0);
+//    });
+
+    $(document).foundation();
+    $(document).ready(function($) {
+
+        $("#simple-menu").sidr();
+
+        $.getJSON('data/paintings.json', function(data) {
+
+            $.each(data.paintings, function(index, painting) {
+                renderPainting(painting);
+            });
+
+            var homeImage= $('#home');
+            homeImage.removeAttr('hidden');
+
+            $('#gallery-1').royalSlider({
+                autoScaleSlider: false,
+                autoHeight: false,
+                loop: false,
+                imageScaleMode: 'fit',
+                imageAlignCenter: true,
+                navigateByClick: true,
+                numImagesToPreload: 2,
+                arrowsNav:true,
+                arrowsNavAutoHide: true,
+                arrowsNavHideOnTouch: true,
+                keyboardNavEnabled: true,
+                fadeinLoadedSlide: true,
+                globalCaption: true,
+                globalCaptionInside: false
+            });
+
+            $('.gallery-link').click(function() {
+                var slider = $(".royalSlider").data('royalSlider');
+                slider.goTo(1); // go to slide with id
+            });
+
+
+        }).done(function() {})
+                .fail(function(xhr, textStatus, errorThrown) {
+                    alert(errorThrown);
+                });
+
+        function renderPainting(painting) {
+            var paintingEl = '<a class="rsImg" data-rsBigImg="images/clean/' + painting.imageFile + '" href="images/clean/' + painting.imageFile + '">';
+            if (painting.workTitle != undefined) {
+                paintingEl += '<p class="rsCaption border"><span class="work-title">' + painting.workTitle + '</span>';
+            }
+            if (painting.year != undefined) {
+                paintingEl += '<span class="work-title"> (' + painting.year + ')</span>';
+            }
+            if (painting.numberOf != undefined) {
+                paintingEl += ' '+painting.numberOf;
+            }
+            paintingEl += '<br/>';
+
+            if (painting.workType != undefined) {
+                paintingEl += painting.workType + ",&nbsp;";
+            }
+            if (painting.media != undefined) {
+                paintingEl +=  painting.media +",&nbsp;";
+            }
+            if (painting.dimensions != undefined) {
+                paintingEl += painting.dimensions;
+            }
+            if (painting.sold != undefined) {
+                paintingEl += '<span class="work-sold">sold</span>';
+            }
+            if (painting.workTitle != undefined) {
+                paintingEl += "</p>";
+            }
+            paintingEl += "</a>";
+            $('#gallery-1').append(paintingEl);
+        }
+
+
+    });
+</script>
+
+<div id="contact" class="reveal-modal large">
+    <div class="row">
+        <div class="large-12 columns">
+            <h3 class="artist-name">Caroline List</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-4 columns contact">
+            <p><em>Studio</em></p>
+            <p>Space Studios, 13B</p>
+            <p>19 Warburton Road</p>
+            <p>London</p>
+            <p>E8 3RH</p>
+        </div>
+        <div class="large-4 columns contact">
+            <p><em>Telephone</em></p>
+            <p>+44&nbsp;7811&nbsp;452012</p>
+        </div>
+        <div class="large-4 columns contact">
+            <p><em>Email</em></p>
+            <p><a href="mailto:info@carolinelist.com">info@carolinelist.com</a></p>
+        </div>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+</div>
+
+
+</body>
+</html>
