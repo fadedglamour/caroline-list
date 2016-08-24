@@ -88,6 +88,21 @@
         "year":"2016"
     },
     {
+        "imageFile":"metascape+tondo+2014.jpg",
+        "workTitle":"Metascape",
+        "media":"Alkyd on aluminum",
+        "dimensions": "52 x 52 cm",
+        "year": "2014"
+    },
+
+      {
+          "imageFile":"calamine+state+aluminium+tondo+2014.jpg",
+          "workTitle":"Calamine State",
+          "media":"Oil &amp; alkyd on aluminum",
+          "dimensions":"Tondo, 52 cm diameter",
+          "year": "2014"
+      },
+    {
         "imageFile":"nature+dwelling.jpg",
         "workTitle":"Nature Dwelling",
         "media":"Oil &amp; alkyd on birch ply",
@@ -103,21 +118,8 @@
         "year":"2014"
     },
 
-    {
-        "imageFile":"calamine+state+aluminium+tondo+2014.jpg",
-        "workTitle":"Calamine State",
-        "media":"Oil &amp; alkyd on aluminum",
-        "dimensions":"Tondo, 52 cm diameter",
-        "year": "2014"
-    },
 
-    {
-        "imageFile":"metascape+tondo+2014.jpg",
-        "workTitle":"Metascape",
-        "media":"Alkyd on aluminum",
-        "dimensions": "52 x 52 cm",
-        "year": "2014"
-    },
+
 
     {
         "imageFile":"geoscape+2014.jpg",
@@ -534,4 +536,3 @@
 
 ]
 }
-
