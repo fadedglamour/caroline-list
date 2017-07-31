@@ -1,10 +1,40 @@
 { "paintings": [
     { "imageFile": "blackhorizonofexpectation.jpg" },
     {
-        "imageFile": "portals-2013.jpg",
-        "workTitle": "Portals (2014)",
-        "media": "Oil on black gesso",
-        "dimensions": "180 x 180 cm"
+        "imageFile": "monoscape+blue.jpg",
+        "workTitle": "Monoscape Blue (2017)",
+      "media": "Oil on canvas",
+      "dimensions": "70 x 70 cm"
+    },
+    {
+      "imageFile": "chromascape+2017.jpg",
+      "workTitle": "Chromascape (2017)",
+      "media": "Oil on linen",
+      "dimensions": "100 x 100 cm"
+    },
+    {
+      "imageFile": "monoscape+green.jpg",
+      "media": "Oil on canvas",
+      "workTitle": "Monoscape Green (2017)"
+    },
+    {
+      "imageFile": "monoscape+yellow.jpg",
+      "media": "Oil on birch ply",
+      "workTitle": "Monoscape Yellow (2017)",
+      "dimensions": "70 x 70 cm"
+    },
+    {
+      "imageFile": "monoscape+white.jpg",
+      "media": "Oil on birch ply",
+      "workTitle": "Monoscape White (2017)",
+      "dimensions": "70 x 70 cm"
+    },
+    {
+      "imageFile":"monoscape+red+yellow+blue.jpg",
+      "workTitle":"Monoscape Red Yellow Blue",
+      "media":"Triptych oil on black gesso",
+      "dimensions": "80 x 180cm",
+      "year":"2016"
     },
     {
         "imageFile":"metascape-duratran.jpg",
@@ -67,13 +97,6 @@
         "year":"2016"
     },
     {
-        "imageFile":"monoscape+white.jpg",
-        "workTitle":"Monoscape White",
-        "media":"Oil & spray paint on board",
-        "dimensions": "60 x 60cm",
-        "year":"2016"
-    },
-    {
         "imageFile":"variations+in+grey.jpg",
         "workTitle":"Variations in Grey",
         "media":"Oil on linen",
@@ -81,11 +104,10 @@
         "year":"2016"
     },
     {
-        "imageFile":"monoscape+red+yellow+blue.jpg",
-        "workTitle":"Monoscape Red Yellow Blue",
-        "media":"Triptych oil on black gesso",
-        "dimensions": "80 x 180cm",
-        "year":"2016"
+      "imageFile": "portals-2013.jpg",
+      "workTitle": "Portals (2014)",
+      "media": "Oil on black gesso",
+      "dimensions": "180 x 180 cm"
     },
     {
         "imageFile":"metascape+tondo+2014.jpg",
@@ -190,24 +212,6 @@
         "media": "Oil on black gesso",
         "dimensions": "180 x 180 cm"
     },
-
-    {
-        "imageFile": "spectralfield.jpg",
-        "workTitle": "Spectral Field",
-        "media": "Oil on canvas",
-        "dimensions": "180 x 180 cm"
-    },
-
-
-
-    {
-        "imageFile": "spectral.jpg",
-        "workTitle": "Spectral",
-        "media": "Oil on canvas",
-        "dimensions": "80 x 60 cm"
-    },
-
-
 
     {
         "imageFile": "blackhorizonofexpectation.jpg",
@@ -344,13 +348,6 @@
         "dimensions":"120 cm diameter",
         "sold":"true"},
 
-    {
-    "imageFile": "byronsmirror.jpg",
-    "workTitle": "Byron&rsquo;s Mirror",
-    "media": "Oil &amp; silver emulsion on canvas",
-    "dimensions": "152 x 152 cm",
-        "sold":"true"
-        },
 
     {"imageFile":"vanishinghaze.jpg",
         "workTitle":"Vanishing Haze",
@@ -398,12 +395,6 @@
         "workTitle":"Scorched Trunk",
         "media":"Oil &amp; silver emulsion on canvas",
         "dimensions":"Tondo, 70 cm diameter"},
-
-    {"imageFile":"artificialglory.jpg",
-        "workTitle":"Artificial Glory",
-        "media":"Oil on canvas",
-        "dimensions":"90 x 165 cm",
-        "sold":"true"},
 
     {"imageFile":"glitteryglitterybrook.jpg",
         "workTitle":"Glittery Glittery Brook",

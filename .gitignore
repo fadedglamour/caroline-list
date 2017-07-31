@@ -1,0 +1,17 @@
+
+*.scssc
+
+javascripts/vendor/.DS_Store
+
+stylesheets/.DS_Store
+
+fonts/entypo/.DS_Store
+
+images/.DS_Store
+
+.DS_Store
+/node_modules/
+/.idea/
+/.sass-cache/
+/.settings/
+/bower_components/
