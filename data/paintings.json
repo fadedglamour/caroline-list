@@ -1,6 +1,31 @@
 { "paintings": [
     { "imageFile": "blackhorizonofexpectation.jpg" },
     {
+        "imageFile": "chromascape+blue.jpg",
+        "workTitle": "Chromascape Blue (2017)"
+    },
+    {
+        "imageFile": "gradient+oil+on+linen.jpg",
+        "workTitle": "Gradient (2017)",
+        "media": "Oil on linen",
+        "dimensions": "80 x 60 cm"
+    },
+    {
+        "imageFile": "light+chroma+1.jpg",
+        "workTitle": "Light Chroma 1 (2017)",
+        "dimensions": "120 x 130 cm"
+    },
+    {
+        "imageFile": "light+chromascape.jpg",
+        "workTitle": "Light Chromascape (2017)",
+        "dimensions": "180 x 120 cm"
+    },
+    {
+        "imageFile": "light+chroma+yellow.jpg",
+        "workTitle": "Light Chroma Yellow (2017)",
+        "dimensions": "80 x 60 cm"
+    },
+    {
         "imageFile": "monoscape+blue.jpg",
         "workTitle": "Monoscape Blue (2017)",
       "media": "Oil on canvas",
