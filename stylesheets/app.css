@@ -2053,6 +2053,7 @@ h3.artist-name {
 /* line 119, ../sass/app.scss */
 #menu-icon {
   position: absolute;
+  top: 0px;
   left: 10px;
   display: flex;
   font-family: "entypo";
